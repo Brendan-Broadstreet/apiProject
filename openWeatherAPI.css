@@ -1,0 +1,42 @@
+/* openWeatherAPI.css */
+body {
+    background-color: black;
+  }
+.weather-container {
+    width: 25%;
+    background: #ccc;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 37.5%;
+    border-style: inset;
+    border-width: 15px;
+    border-color: darkgray;
+}
+
+.yourCity {
+    font-variant: small-caps;
+    font-size: 2rem;
+    padding-top: 0%;
+    margin: 0;
+}
+
+.weather {
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-top: 0%;
+    margin: 0;
+    font-weight: bold;
+}
+
+.temp {
+    font-size: 2.3rem;
+    margin: 0;
+    padding-bottom: 5%;
+    font-weight: bold;
+}
+
+.icon {
+    width: 75%;
+}
