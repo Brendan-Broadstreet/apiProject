@@ -3,6 +3,16 @@
 // const key = 'appid=524100a9f5f3b3de0c2e661e960e6f49'
 var city = "Seattle";
 
+//           Indianapolis
+//           Noblesville
+//           Fishers
+//           Seattle
+
+
+
+
+
+
 $.getJSON("https://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=imperial&appid=524100a9f5f3b3de0c2e661e960e6f49", 
 function(data){
     console.log(data);
